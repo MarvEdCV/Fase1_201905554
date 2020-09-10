@@ -21,7 +21,7 @@
     height:100px;
     overflow:hidden;
     top:calc(-100px/2);
-    left:calc(50%-50px);
+    left:calc(50% - 50px);
     position:absolute;
 }
 h2{
