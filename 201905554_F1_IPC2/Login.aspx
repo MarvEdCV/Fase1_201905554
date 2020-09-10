@@ -5,14 +5,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Inicio de sesión</title>
+    <title>Inicio de sesión OTHELLO</title>
     <link href="style.css" rel="stylesheet" />
 </head>
 <body>
     <div class="inicio">
         <img src="icons8-enter-64.png" alt="Alternate Text"  class="usuario"/>
         <h2>Inicio de Sesión</h2>
-
+        <h3>OTHELLO</h3>
+        <form runat="server">
+            <asp:Label Text="Nombre de Usuario" CssClass="lblname" runat="server" />
+            <asp:TextBox runat="server" CssClass="txtusu" placeholder="Escriba nombre de usuario" />
+            <asp:Label Text="Contraseña" CssClass="lblcontra" runat="server" />
+            <asp:TextBox runat="server" CssClass="txtpass" type="password"  placeholder="************" />
+            <asp:Button Text="Iniciar sesión" CssClass="btninicio" runat="server" OnClick="Unnamed4_Click" />
+            
+            <asp:LinkButton Text="¿No tenés usuario, deseas registrarte?" CssClass="btnlink" runat="server" />
+        </form>
     </div>
 </body>
 </html>

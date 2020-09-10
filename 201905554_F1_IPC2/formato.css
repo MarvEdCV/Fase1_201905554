@@ -1,0 +1,60 @@
+﻿
+body {
+    background-color: #ffdd90;
+    background-image: url("fondoq.jpg");
+}
+h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Segoe UI Black';
+    font-size: 80px;
+    color:white;
+}
+.controls {
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    height: 40px;
+    width:200px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+.texto {
+    width: 200px;
+    color: white;
+    margin-bottom: 16px;
+    font-family: 'Segoe UI Black';
+    font-size: 18px;
+    padding: 12px;
+}
+
+.form-boton {
+    align-content: center;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(158, 118, 80);
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+.form-boton:hover {
+    background-color: rgb(21, 113, 176)
+}
+
+::placeholder {
+    color: silver
+}
+
+.form-register {
+    width: 1000px;
+    height: 600px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #000;
+}

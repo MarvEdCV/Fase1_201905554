@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="e4.jpg" />
+    <Content Include="fondoq.jpg" />
+    <Content Include="formato.css" />
     <Content Include="icon.png" />
     <Content Include="icons8-enter-64.png" />
     <Content Include="style.css" />
