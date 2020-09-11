@@ -105,13 +105,13 @@ namespace _201905554_F1_IPC2
         protected global::System.Web.UI.WebControls.Label Lblusu;
 
         /// <summary>
-        /// Control Txtusu.
+        /// Control TxtUsuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtusu;
+        protected global::System.Web.UI.WebControls.TextBox TxtUsuario;
 
         /// <summary>
         /// Control Lblcontra.
@@ -141,13 +141,13 @@ namespace _201905554_F1_IPC2
         protected global::System.Web.UI.WebControls.Label Lblfecha;
 
         /// <summary>
-        /// Control Txtfecha.
+        /// Control Txtpais.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtfecha;
+        protected global::System.Web.UI.WebControls.TextBox Txtpais;
 
         /// <summary>
         /// Control lbldate.

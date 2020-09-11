@@ -15,9 +15,9 @@
         <h3>OTHELLO</h3>
         <form runat="server">
             <asp:Label Text="Nombre de Usuario" CssClass="lblname" runat="server" />
-            <asp:TextBox runat="server" CssClass="txtusu" placeholder="Escriba nombre de usuario" />
+            <asp:TextBox runat="server" CssClass="txtusu" placeholder="Escriba nombre de usuario" ID="nomusu"/>
             <asp:Label Text="Contraseña" CssClass="lblcontra" runat="server" />
-            <asp:TextBox runat="server" CssClass="txtpass" type="password"  placeholder="************" />
+            <asp:TextBox runat="server" CssClass="txtpass" type="password"  placeholder="************" ID="pass" />
             <asp:Button Text="Iniciar sesión" CssClass="btninicio" runat="server" OnClick="Unnamed4_Click" />
             
             <asp:LinkButton Text="¿No tenés usuario, deseas registrarte?" CssClass="btnlink" runat="server" />

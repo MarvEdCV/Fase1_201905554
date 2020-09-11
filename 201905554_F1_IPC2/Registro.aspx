@@ -43,7 +43,7 @@
                 
                 <td>
                     <asp:Label ID="Lblusu" runat="server" Text="Nombre Usuario:"  CssClass="texto"></asp:Label></td>
-                <td><asp:TextBox ID="Txtusu" runat="server" CssClass="controls" placeholder="Ingrese nombre de usuario" required></asp:TextBox></td>
+                <td><asp:TextBox ID="TxtUsuario" runat="server" CssClass="controls" placeholder="Ingrese nombre de usuario" required></asp:TextBox></td>
                 <td>
                     <asp:Label ID="Lblcontra" runat="server" Text="Contraseña:" CssClass="texto"></asp:Label></td>
                 <td><asp:TextBox ID="txtcontra" runat="server" type="password" CssClass="controls" placeholder="***************" required> </asp:TextBox  ></td>
@@ -52,7 +52,7 @@
                 
                 <td>
                     <asp:Label ID="Lblfecha" runat="server" Text="Pais:" CssClass="texto"></asp:Label></td>
-                <td><asp:TextBox ID="Txtfecha" runat="server" CssClass="controls" placeholder="Ingrese pais" required></asp:TextBox></td>
+                <td><asp:TextBox ID="Txtpais" runat="server" CssClass="controls" placeholder="Ingrese pais" required></asp:TextBox></td>
                 <td>
                     <asp:Label ID="lbldate" runat="server" Text="Fecha de nacimiento" CssClass="texto"></asp:Label></td>
                 <td><asp:TextBox ID="txtDate" runat="server" CssClass="controls" type="date" placeholder="Selecciones fecha" required></asp:TextBox  ></td>
@@ -68,7 +68,7 @@
                
                
                 <td colspan="2">
-                    <asp:Button ID="Btncrear" runat="server" Text="Crear Cuenta" CssClass="form-boton" /></center></td>
+                    <asp:Button ID="Btncrear" runat="server" Text="Crear Cuenta" CssClass="form-boton" OnClick="Btncrear_Click" /></center></td>
                
                 <td colspan="3"><center>
                     <asp:Button ID="Btniniciar" runat="server" Text="Iniciar Sesion" CssClass="form-boton" /></center></td>
