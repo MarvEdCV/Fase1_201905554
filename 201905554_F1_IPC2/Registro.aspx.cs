@@ -20,14 +20,24 @@ namespace _201905554_F1_IPC2
 
         protected void Btncrear_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        protected void Btniniciar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+        }
+
+        protected void Btncrear_Click1(object sender, EventArgs e)
+        {
             string connectionString = @"Data Source=DESKTOP-KMQA5BN; Initial Catalog = OTHELLO; Integrated Security=True;";
-            using (SqlConnection sqlCon = new SqlConnection(connectionString)) 
+            using (SqlConnection sqlCon = new SqlConnection(connectionString))
             {
                 sqlCon.Open();
                 SqlDataAdapter sqlDa = new SqlDataAdapter("INSERT INTO USUARIO VALUES " +
-                    "('"+ TxtUsuario.Text +"','" + TxtpNombre.Text + "','"+ TxtsNombre.Text+"','"
-                    + TxtpApellido.Text + "','" + TxtsApellido.Text+"','"+txtDate.Text+"','" 
-                    + Txtpais.Text+"','"+ txtcontra.Text +"','"+ Txtcorreo.Text +"')", sqlCon);
+                    "('" + TxtUsuario.Text + "','" + TxtpNombre.Text + "','" + TxtsNombre.Text + "','"
+                    + TxtpApellido.Text + "','" + TxtsApellido.Text + "','" + txtDate.Text + "','"
+                    + Txtpais.Text + "','" + txtcontra.Text + "','" + Txtcorreo.Text + "')", sqlCon);
                 DataTable dtbl = new DataTable();
                 sqlDa.Fill(dtbl);
                 sqlCon.Close();

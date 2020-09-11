@@ -68,10 +68,11 @@
                
                
                 <td colspan="2">
-                    <asp:Button ID="Btncrear" runat="server" Text="Crear Cuenta" CssClass="form-boton" OnClick="Btncrear_Click" /></center></td>
+                    <asp:Button ID="Btncrear" runat="server" Text="Crear Cuenta" CssClass="form-boton" OnClick="Btncrear_Click1" /></center></td>
+                    </center></td>
                
                 <td colspan="3"><center>
-                    <asp:Button ID="Btniniciar" runat="server" Text="Iniciar Sesion" CssClass="form-boton" /></center></td>
+                    <asp:Button ID="Btniniciar" runat="server" Text="Iniciar Sesion" CssClass="form-boton" OnClick="Btniniciar_Click" /></center></td>
             </tr>
         </table>
     </form>

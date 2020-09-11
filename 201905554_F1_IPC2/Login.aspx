@@ -17,10 +17,17 @@
             <asp:Label Text="Nombre de Usuario" CssClass="lblname" runat="server" />
             <asp:TextBox runat="server" CssClass="txtusu" placeholder="Escriba nombre de usuario" ID="nomusu"/>
             <asp:Label Text="Contraseña" CssClass="lblcontra" runat="server" />
-            <asp:TextBox runat="server" CssClass="txtpass" type="password"  placeholder="************" ID="pass" />
+            <asp:TextBox runat="server" CssClass="txtpass" type="password"  placeholder="************" ID="password" />
             <asp:Button Text="Iniciar sesión" CssClass="btninicio" runat="server" OnClick="Unnamed4_Click" />
             
-            <asp:LinkButton Text="¿No tenés usuario, deseas registrarte?" CssClass="btnlink" runat="server" />
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:OTHELLOConnectionString %>" SelectCommand="Consulta" SelectCommandType="StoredProcedure">
+                <SelectParameters>
+                    <asp:ControlParameter ControlID="nomusu" Name="usu" PropertyName="Text" Type="String" />
+                    <asp:ControlParameter ControlID="password" Name="pass" PropertyName="Text" Type="String" />
+                </SelectParameters>
+            </asp:SqlDataSource>
+            
+            <asp:LinkButton Text="¿No tenés usuario, deseas registrarte?" CssClass="btnlink" runat="server" OnClick="Unnamed4_Click1" />
         </form>
     </div>
 </body>
