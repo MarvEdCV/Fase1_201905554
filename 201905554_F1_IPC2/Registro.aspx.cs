@@ -42,8 +42,8 @@ namespace _201905554_F1_IPC2
                 sqlDa.Fill(dtbl);
                 sqlCon.Close();
 
-                MessageBox.Show("El registro " + TxtUsuario.Text + " fue guardado con exito");
+                MessageBox.Show("El registro " + TxtUsuario.Text + " fue guardado con exito", "Enhorabuena!!!!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
         }
     }
-}
+}   

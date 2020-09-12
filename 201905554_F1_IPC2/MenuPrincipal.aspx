@@ -4,19 +4,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
     <link href="estilos.css" rel="stylesheet" />
     <title></title>
 </head>
-<body  background="fondoedu.jpg">
+<body background="fondoedu.jpg">
      <div class="container well">
-            <center><h2>The Othello</h2></center>
-            
-        </div>
+            <center><h2>The Othello</h2></center>            
+     </div>
      <section class="form-edu">
     <form id="form1" runat="server">
         <div>
-
         </div>
         <table style="width: 100%;">
              
@@ -35,7 +32,7 @@
                 <td> <center><asp:Button ID="Btnmult" runat="server" Text="Jugar Multijugador" CssClass="botones"></asp:Button></center></td>
             </tr>
             <tr>
-            <td ><center><asp:LinkButton ID="LinkButton1" runat="server"><asp:Image ID="ImagenCargar" runat="server" ImageUrl="educarga.png" AlternateText="kyocode" CssClass="form-image" style="width: 200px; height: 200px"  /></asp:LinkButton></center></td>
+            <td ><center><asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><asp:Image ID="ImagenCargar" runat="server" ImageUrl="educarga.png" AlternateText="kyocode" CssClass="form-image" style="width: 200px; height: 200px"  /></asp:LinkButton></center></td>
               <td><center><asp:LinkButton ID="LinkButton2" runat="server"><asp:Image ID="Image1" runat="server" ImageUrl="reportes.png" AlternateText="kyocode" CssClass="form-image" style="width: 200px; height: 200px"  /></asp:LinkButton></center></td>
               </tr>
             <tr>

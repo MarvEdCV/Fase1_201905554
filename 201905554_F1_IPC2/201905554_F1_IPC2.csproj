@@ -68,14 +68,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cssJuego.css" />
     <Content Include="e4.jpg" />
     <Content Include="educarga.png" />
     <Content Include="estilos.css" />
+    <Content Include="f2.jpg" />
     <Content Include="fondoedu.jpg" />
     <Content Include="fondoq.jpg" />
     <Content Include="formato.css" />
     <Content Include="icon.png" />
     <Content Include="icons8-enter-64.png" />
+    <Content Include="Juego.aspx" />
     <Content Include="MenuPrincipal.aspx" />
     <Content Include="reportes.png" />
     <Content Include="style.css" />
@@ -88,6 +91,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Juego.aspx.cs">
+      <DependentUpon>Juego.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Juego.aspx.designer.cs">
+      <DependentUpon>Juego.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -119,6 +129,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="XmlSubidos\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

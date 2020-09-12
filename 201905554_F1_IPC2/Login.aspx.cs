@@ -32,7 +32,7 @@ namespace _201905554_F1_IPC2
             }
             if (numero == 0)
             {
-                MessageBox.Show("ESCRIBISTE MAL TU USUARIO O CONTRASEÑA, O NO TENÉS CUENTA REGISTRADA");
+                MessageBox.Show("ESCRIBISTE MAL TU USUARIO O CONTRASEÑA, O NO TENÉS CUENTA REGISTRADA", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
        
         }

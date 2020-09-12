@@ -18,5 +18,10 @@ namespace _201905554_F1_IPC2
         {
             Response.Redirect("Login.aspx");
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Juego.aspx");
+        }
     }
 }
