@@ -30,6 +30,38 @@
                 </table>
             <center><table>
                 <tr>
+                    <td>
+                        <asp:Button ID="esquinaizquierda" runat="server"  CssClass="Numeros"  />
+                    </td>
+                    <td>
+                        <asp:Button ID="BA" runat="server"  CssClass="Numeros" Text="A" />
+                    </td>
+                    <td>
+                        <asp:Button ID="BB" runat="server"  CssClass="Numeros" Text="B" />
+                    </td>
+                    <td>
+                        <asp:Button ID="BC" runat="server"  CssClass="Numeros" Text="C" />
+                    </td>
+                    <td>
+                        <asp:Button ID="BD" runat="server"  CssClass="Numeros" Text="D" />
+                    </td>
+                    <td>
+                        <asp:Button ID="BE" runat="server"  CssClass="Numeros" Text="E" />
+                    </td>
+                    <td>
+                        <asp:Button ID="BF" runat="server"  CssClass="Numeros" Text="F" />
+                    </td>
+                    <td>
+                        <asp:Button ID="BG" runat="server"  CssClass="Numeros" Text="G" />
+                    </td>
+                    <td>
+                        <asp:Button ID="BH" runat="server"  CssClass="Numeros" Text="H" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Button ID="B1" runat="server"  CssClass="Numeros" Text="1"/>
+                    </td>
                 <td>
                     <asp:Button ID="Button1" runat="server"  CssClass="tablero" OnClick="Button1_Click2"/>
                 </td>
@@ -56,7 +88,11 @@
                 </td>
             </tr>
                 <tr>
+                     <td>
+                        <asp:Button ID="B2" runat="server"  CssClass="Numeros" Text="2"/>
+                    </td>
                 <td>
+
                     <asp:Button ID="Button9" runat="server"  CssClass="tablero"/>
                 </td>
                 <td>
@@ -82,6 +118,9 @@
                 </td>
             </tr>
                 <tr>
+                     <td>
+                        <asp:Button ID="B3" runat="server"  CssClass="Numeros" Text="3"/>
+                    </td>
                 <td>
                     <asp:Button ID="Button17" runat="server"  CssClass="tablero"/>
                 </td>
@@ -108,6 +147,9 @@
                 </td>
             </tr>
                 <tr>
+                     <td>
+                        <asp:Button ID="B4" runat="server" CssClass="Numeros" Text="4" />
+                    </td>
                 <td>
                     <asp:Button ID="Button25" runat="server"  CssClass="tablero"/>
                 </td>
@@ -134,6 +176,9 @@
                 </td>
             </tr>
                 <tr>
+                     <td>
+                        <asp:Button ID="B5" runat="server"  CssClass="Numeros" Text="5" />
+                    </td>
                 <td>
                     <asp:Button ID="Button33" runat="server"  CssClass="tablero"/>
                 </td>
@@ -160,6 +205,9 @@
                 </td>
             </tr>
                 <tr>
+                     <td>
+                        <asp:Button ID="B6" runat="server" CssClass="Numeros" Text="6"/>
+                    </td>
                 <td>
                     <asp:Button ID="Button41" runat="server"  CssClass="tablero"/>
                 </td>
@@ -186,6 +234,9 @@
                 </td>
             </tr>
                 <tr>
+                     <td>
+                        <asp:Button ID="B7" runat="server"  CssClass="Numeros" Text="7" />
+                    </td>
                 <td>
                     <asp:Button ID="Button49" runat="server"  CssClass="tablero"/>
                 </td>
@@ -212,6 +263,9 @@
                 </td>
             </tr>
                 <tr>
+                     <td>
+                        <asp:Button ID="B8" runat="server"  CssClass="Numeros" Text="8" />
+                    </td>
                 <td>
                     <asp:Button ID="Button57" runat="server"  CssClass="tablero"/>
                 </td>

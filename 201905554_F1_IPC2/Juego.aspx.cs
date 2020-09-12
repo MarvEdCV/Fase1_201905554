@@ -23,11 +23,11 @@ namespace _201905554_F1_IPC2
         {
             Button1.BackColor = Color.White;
             if (Button1.BackColor.Name == "White")
-            { 
+            {
                 Button1.BackColor = Color.Black;
             }
-            
-       }
+
+        }
 
         protected void Regresar_Click(object sender, EventArgs e)
         {
@@ -57,58 +57,43 @@ namespace _201905554_F1_IPC2
                     {
                         if (reader.IsStartElement())
                         {
-                            
+
                             //return only when you have START tag  
-                            switch (reader.Name.ToString())
+                            if (reader.Name.ToString() == "color")
                             {
-                                case "color":
-                                    if (reader.ReadString() == "negro")
-                                    {
-                                        MessageBox.Show("hola" + reader.ReadString());
-                                        cl = "White";
-                                    }
-                                    else if(reader.ReadString()=="negro")
-                                    {
-                                        MessageBox.Show("hola" + reader.ReadString());
-                                        cl = "Black";
-                                    }
-                                    break;
-                                case "columna":
-                                    MessageBox.Show("hola"+ reader.ReadString());
-                                    break;
-                                case "fila":
-                                    if (reader.ReadString() == "1")
-                                    {
-                                        fl = "q";
-                                    }
-                                    if (reader.ReadString() == "2")
-                                    {
-                                        fl = "2";
-                                    }
-                                    break;
+                                if (reader.ReadString() == "blanco")
+                                {
+                                    MessageBox.Show("hola");
+                                    cl = "blanco";
+                                }
+                                if (reader.ReadString() == "negro")
+                                {
+                                    MessageBox.Show("hlieres");
+                                    cl = "negro";
+
+                                }
                             }
+                            if (reader.Name.ToString() == "color")
+                            {
+                                if (reader.ReadString() == "negro")
+                                {
+                                    MessageBox.Show("hlieres");
+                                    cl = "negro";
+
+                                }
                             }
 
-                        if (cl == "White" && col == "B")
+                        }
+                        if (cl == "blanco")
                         {
-                            MessageBox.Show("HOLA ESTOY AQUI--color" + cl + "columna<---" + col + "fila" + fl);
-                            if (fl == "1")
-                            {
-                                Button1.BackColor = Color.White;
-                            }
-                            if (fl == "2")
-                            {
-                                Button9.BackColor = Color.White;
-                            }
-                            
-                        }   
-                    }
-
+                            Button1.BackColor = Color.White;
+                        }
+                        if (cl == "negro")
+                        {
+                            Button2.BackColor = Color.Black;
+                        }          
+                    }   
                 }
-            }
-            else
-            {
-                Response.Write("Seleccione un archivo a subir");
             }
         }
     }

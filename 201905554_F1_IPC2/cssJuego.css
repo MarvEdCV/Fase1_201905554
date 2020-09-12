@@ -45,10 +45,17 @@
     transition: .3s ease-in-out;
 }
 .tablero {
-    width: 55px;
-    height: 55px;
+    width: 47px;
+    height: 47px;
     border-bottom-style: outset,double;
     border-bottom-width:thick;
     background-color:rgb(28, 126, 21);
+}
+.Numeros {
+    width: 47px;
+    height: 47px;
+    border-bottom-style: outset,double;
+    border-bottom-width: thick;
+    background-color: rgb(199, 149, 51);
 }
 

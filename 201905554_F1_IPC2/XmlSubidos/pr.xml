@@ -1,8 +1,11 @@
 <tablero>
 	<ficha>
 		<color>blanco</color>
-		<columna>B</columna>
-		<fila>1</fila>
+		
+	</ficha>
+	<ficha>
+		<color>negro</color>
+
 	</ficha>
 	
 </tablero>

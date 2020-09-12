@@ -51,6 +51,96 @@ namespace _201905554_F1_IPC2
         protected global::System.Web.UI.WebControls.Button Regresar;
 
         /// <summary>
+        /// Control esquinaizquierda.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button esquinaizquierda;
+
+        /// <summary>
+        /// Control BA.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BA;
+
+        /// <summary>
+        /// Control BB.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BB;
+
+        /// <summary>
+        /// Control BC.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BC;
+
+        /// <summary>
+        /// Control BD.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BD;
+
+        /// <summary>
+        /// Control BE.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BE;
+
+        /// <summary>
+        /// Control BF.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BF;
+
+        /// <summary>
+        /// Control BG.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BG;
+
+        /// <summary>
+        /// Control BH.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BH;
+
+        /// <summary>
+        /// Control B1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button B1;
+
+        /// <summary>
         /// Control Button1.
         /// </summary>
         /// <remarks>
@@ -121,6 +211,15 @@ namespace _201905554_F1_IPC2
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button8;
+
+        /// <summary>
+        /// Control B2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button B2;
 
         /// <summary>
         /// Control Button9.
@@ -195,6 +294,15 @@ namespace _201905554_F1_IPC2
         protected global::System.Web.UI.WebControls.Button Button16;
 
         /// <summary>
+        /// Control B3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button B3;
+
+        /// <summary>
         /// Control Button17.
         /// </summary>
         /// <remarks>
@@ -265,6 +373,15 @@ namespace _201905554_F1_IPC2
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button24;
+
+        /// <summary>
+        /// Control B4.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button B4;
 
         /// <summary>
         /// Control Button25.
@@ -339,6 +456,15 @@ namespace _201905554_F1_IPC2
         protected global::System.Web.UI.WebControls.Button Button32;
 
         /// <summary>
+        /// Control B5.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button B5;
+
+        /// <summary>
         /// Control Button33.
         /// </summary>
         /// <remarks>
@@ -409,6 +535,15 @@ namespace _201905554_F1_IPC2
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button40;
+
+        /// <summary>
+        /// Control B6.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button B6;
 
         /// <summary>
         /// Control Button41.
@@ -483,6 +618,15 @@ namespace _201905554_F1_IPC2
         protected global::System.Web.UI.WebControls.Button Button48;
 
         /// <summary>
+        /// Control B7.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button B7;
+
+        /// <summary>
         /// Control Button49.
         /// </summary>
         /// <remarks>
@@ -553,6 +697,15 @@ namespace _201905554_F1_IPC2
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button56;
+
+        /// <summary>
+        /// Control B8.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button B8;
 
         /// <summary>
         /// Control Button57.
